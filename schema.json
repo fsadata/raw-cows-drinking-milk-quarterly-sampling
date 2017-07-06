@@ -1,0 +1,61 @@
+{
+	"fields": [
+		{
+			"name": "SampleDate",
+			"title": "The date that the sample was taken",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#dateTime",
+				"datePattern": "%Y-%m"
+			}
+		},
+		{
+			"name": "RoutineSamplePass",
+			"title": "Volume of routine samples that passed",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "RoutineSampleFail",
+			"title": "Volume of routine samples that failed",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "FollowUp1Pass",
+			"title": "Volume of first follow up samples that passed",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "FollowUp1Fail",
+			"title": "Volume of first follow up samples that failed",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "FollowUp2Pass",
+			"title": "Volume of second follow up samples that passed",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "FollowUp2Fail",
+			"title": "Volume of second follow up samples that failed",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		}
+	]
+}
